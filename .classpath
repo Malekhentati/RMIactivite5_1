@@ -6,6 +6,6 @@
 			<attribute name="module" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="C:/MalekHentati_devrepartie_1_RMI/MalekHentati_devrep_rmi/conversionClient.jar"/>
+	<classpathentry kind="lib" path="C:/MalekHentati_devrepartie_1_RMI/MalekHentati_LSI3_DepAppReparties_Activité_5_1/src/serveur/conversionClient.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

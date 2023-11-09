@@ -1,14 +1,18 @@
 package serveur;
-import java.io.Serializable;
 import java.rmi.RemoteException;
+import java.rmi.server.UnicastRemoteObject;
 
 
-public class ConversionImpl implements IConversion, Serializable {
+public class ConversionImpl  extends UnicastRemoteObject implements IConversion {
+
+
+	public ConversionImpl() throws RemoteException {
+	    }
 
 	 @Override
 	    public double convertirMontant(double mt) throws RemoteException {
 		//exemple: convertion d'un montant en euros en dollars
-		 double tauxDeChange = 1.15; // Taux de change euro-dollar
+		 double tauxDeChange = 3.15; // Taux de change euro-dollar
 	        return mt * tauxDeChange;
 	 }
 }
